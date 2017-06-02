@@ -9,6 +9,11 @@
     <Authors>Victor Milovanov</Authors>
     <Company>Lost Tech LLC</Company>
     <Description>Contains models for Facebook Graph API entities</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/losttech/Facebook.Models/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/losttech/Facebook.Models/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/losttech/Facebook.Models.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Facebook</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
