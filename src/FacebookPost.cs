@@ -4,7 +4,7 @@
     using System.Runtime.Serialization;
 
     [DataContract]
-    public class FacebookPost
+    public sealed class FacebookPost
     {
         [DataMember(Name = "story")]
         public string Story { get; set; }
