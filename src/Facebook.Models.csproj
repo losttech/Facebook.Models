@@ -4,7 +4,7 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>Facebook.Models</AssemblyName>
     <RootNamespace>Facebook.Models</RootNamespace>
-    <Version>0.0.1</Version>
+    <VersionPrefix>0.0.1</VersionPrefix>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Victor Milovanov</Authors>
     <Company>Lost Tech LLC</Company>
