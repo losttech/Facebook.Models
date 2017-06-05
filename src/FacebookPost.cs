@@ -78,5 +78,7 @@
         public DateTime? UpdateTime { get; set; }
         [DataMember(Name = "with_tags")]
         public FacebookWithObject With { get; set; }
+        [DataMember(Name = "likes")]
+        public FacebookLikes Likes { get; set; }
     }
 }
