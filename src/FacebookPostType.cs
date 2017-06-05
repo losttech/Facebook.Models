@@ -4,6 +4,8 @@
 
     public enum FacebookPostType
     {
+        [EnumMember(Value = "")]
+        Unknown,
         [EnumMember(Value = "mobile_status_update")]
         Mobile,
         [EnumMember(Value = "created_note")]
