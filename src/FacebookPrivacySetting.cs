@@ -32,6 +32,8 @@
             Self,
             [EnumMember(Value = "CUSTOM")]
             Custom,
+            [EnumMember(Value = "")]
+            Unset,
         }
 
         public enum FriendSet
