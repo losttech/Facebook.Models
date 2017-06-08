@@ -47,7 +47,9 @@
         [DataMember(Name = "permalink_url")]
         public Uri Permalink { get; set; }
         [DataMember(Name = "picture")]
-        public string Picture { get; set; }
+        public Uri Picture { get; set; }
+        [DataMember(Name = "full_picture")]
+        public Uri FullPicture { get; set; }
         [DataMember(Name = "place")]
         public FacebookPlace Place { get; set; }
         [DataMember(Name = "privacy")]
