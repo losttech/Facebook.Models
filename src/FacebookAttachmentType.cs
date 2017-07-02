@@ -14,5 +14,7 @@
         Video,
         [EnumMember(Value = "offer")]
         Offer,
+        [EnumMember(Value = "event")]
+        Event,
     }
 }
