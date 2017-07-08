@@ -73,7 +73,7 @@
         /// Mentioned or targeted in this post
         /// </summary>
         [DataMember(Name = "to")]
-        public List<FacebookProfile> To { get; } = new List<FacebookProfile>();
+        public FacebookDataContainer<List<FacebookProfile>> To { get; set; } = FacebookDataContainer.New<List<FacebookProfile>>();
         [DataMember(Name = "type")]
         public FacebookAttachmentType AttachmentType { get; set; }
         [DataMember(Name = "updated_time")]
